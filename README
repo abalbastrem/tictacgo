@@ -1,0 +1,12 @@
+TIC-TAC-GOE (A PROGRAMMING COMMENTARY ON THE MOVIE WARGAMES)
+
+In the movie WarGames (1983) a computer is about to send missiles all over the planet and trigger World War III. 
+SPOILER ALERT: David, the movie's protagonist, averts this crisis by forcing the computer to play tic-tac-toe by itself, looping it indefinitely, so it can't move on to the next function, which would destroy the world. The plot has another twist after that, but this exercise in focused
+in this point of the plot and makes the following observatiion: had the software been programmed in Go, the strategy employed by David would have failed.
+
+You see, Go can handle concurrency (called goncurrency), and so that means that while it's looping playing tic-tac-toe, it can trigger WWIII in a goncurrent channel.
+
+This exercise is not just to familiarise myself with goncurrency, but I also believe programming must be fun and, why not, artistic.
+
+Let the games begin,
+Albert
